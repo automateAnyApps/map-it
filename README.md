@@ -1,2 +1,2 @@
 # map-it
-a frawork solution
+a framework solution
