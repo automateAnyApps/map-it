@@ -1,0 +1,68 @@
+//***************************** MEDIA RULES LARGE SCREEB *****************************
+@media screen and (min-width: 600px)
+    
+    /* Navigation */
+    nav
+        padding: 0
+        position: absolute
+        right: 20px
+    #nav 
+        label
+            display: none
+    #nav
+        nav
+            height: auto
+            overflow: visible
+    #nav 
+        ul
+            margin: 0
+            border: 0
+            background-color: $basecolor
+            padding: 7px 0 0 0
+    #nav 
+        li
+            display: inline
+            border: 0
+            background-color: $basecolor
+            padding: 28px 5px
+            &:hover
+                background-color: $activebtncol
+                cursor: pointer
+    #nav 
+        a
+            display: inline-block
+        
+    /* CONTAINER SETUP */    
+    #container
+        max-width: 960px
+        margin: 0 auto       
+    .wrapper
+        display: flex
+        width: 100%
+
+    /* BODY SETUP */ 
+    header 
+        h1
+            font-size: 3em
+    article
+        max-width: 60%
+        float: left
+        flex: 1
+    aside
+        max-width: 35%
+        float: left
+        padding-right: 5%
+        flex: 1
+    p
+        padding-right: 25px
+    h1, h2
+        padding-right: 25px
+    article
+        h1
+            font-size: 2em
+        h2
+            font-size: 1.4em
+    figcaption
+        text-align: right
+
+

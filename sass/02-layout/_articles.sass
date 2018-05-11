@@ -1,0 +1,13 @@
+//***************************** AERTICLES RULES *****************************
+article
+    padding-bottom: 10px
+    background-color: $asidetextcol
+    h1
+        @include textformat($headlines)
+        margin-bottom: 10px
+        font-size: 2em
+    h2
+        @include textformat($headlines, $asidebckgcol)
+        margin-bottom: 0
+    p
+        @include textformat($bodytext)

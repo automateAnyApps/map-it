@@ -1,0 +1,13 @@
+//***************************** ASIDE RULES *****************************
+aside
+    background-color: $asidebckgcol
+    color: $asidetextcol
+    padding: 10px 0
+    h1
+        @include textformat($headlines, $asidetextcol)
+        @include line($color: white)
+        font-size: 1.5em
+    h2
+        @include textformat($headlines, $asidetextcol)
+    p
+        @include textformat($bodytext, $asidetextcol)

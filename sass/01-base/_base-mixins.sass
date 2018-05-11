@@ -1,0 +1,15 @@
+//***************************** BASE MIXINS *****************************  
+@mixin img
+    max-width: 100%
+    height: auto
+    
+@mixin line($color)
+    content: ""
+    display: block
+    border-bottom: solid 1px $color
+    
+@mixin textformat($fontFam, $textcol: $bodycopycol)
+    padding: 0 15px
+    margin-top: 0
+    font-family: $fontFam
+    color: $textcol
